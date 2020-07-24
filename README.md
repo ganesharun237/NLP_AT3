@@ -1,7 +1,6 @@
 # GSDMM: Short text clustering
 
-This project implements the Gibbs sampling algorithm for a Dirichlet Mixture Model of [Yin and Wang 2014](https://pdfs.semanticscholar.org/058a/d0815ce350f0e7538e00868c762be78fe5ef.pdf) for the 
-clustering of short text documents. 
+This project implements the Gibbs sampling algorithm for a Dirichlet Mixture Model of [Yin and Wang 2014](https://pdfs.semanticscholar.org/058a/d0815ce350f0e7538e00868c762be78fe5ef.pdf) for topic modelling of short text documents like Twitter tweets. 
 Some advantages of this algorithm:
  - It requires only an upper bound `K` on the number of clusters
  - With good parameter selection, the model converges quickly
@@ -23,7 +22,7 @@ the student must select a new table satisfying one or both of the following cond
 By following these steps consistently, we might expect that the students eventually arrive at an "optimal" table configuration.
 
 ## Usage
-To use a Movie Group Process to cluster short texts, first initialize a [MovieGroupProcess](gsdmm/mgp.py):
+To use a Movie Group Process to perform Topic Modelling of short texts, first initialize a [MovieGroupProcess](gsdmm/mgp.py):
 ```python
 from gsdmm import MovieGroupProcess
 mgp = MovieGroupProcess(K=8, alpha=0.1, beta=0.1, n_iters=30)
