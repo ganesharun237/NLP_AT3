@@ -1,3 +1,9 @@
+
+
+POS Tagging was performed on the tweets to extraxt only the nouns of tweets as it was proven from previous research that Topic Modelling on Nouns improves the Topic coherence. Once the nouns of Tweets was extracted Topic Modelling one the nouns of tweets was done using GSDMM model.
+
+
+
 # GSDMM: Short text clustering
 
 This project implements the Gibbs sampling algorithm for a Dirichlet Mixture Model of [Yin and Wang 2014](https://pdfs.semanticscholar.org/058a/d0815ce350f0e7538e00868c762be78fe5ef.pdf) for topic modelling of short text documents like Twitter tweets. 
@@ -6,7 +12,7 @@ Some advantages of this algorithm:
  - With good parameter selection, the model converges quickly
  - Space efficient and scalable
 
-
+GSDMM model was selected and used because it performs better than the state of the art LDA model at Topic Modelling of short texts. LDA is better at Topic modelling of Large texts whereas GSDMM is better at Topic Modelling of short texts like Tweets.
 
 ## The Movie Group Process
 In their paper, the authors introduce a simple conceptual model for explaining the GSDMM called the Movie Group Process.
