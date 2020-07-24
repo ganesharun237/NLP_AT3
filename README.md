@@ -1,6 +1,6 @@
 
 
-POS Tagging was performed on the tweets to extraxt only the nouns of tweets as it was proven from previous research that Topic Modelling on Nouns improves the Topic coherence. Once the nouns of Tweets was extracted Topic Modelling one the nouns of tweets was done using GSDMM model.
+POS Tagging was performed on the Elon-Musk tweets dataset to extraxt only the nouns of tweets as it was proven from previous research that Topic Modelling on Nouns improves the Topic coherence. Once the nouns of Tweets was extracted Topic Modelling on the nouns of tweets was done using GSDMM model.
 
 
 
